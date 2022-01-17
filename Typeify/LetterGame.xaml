@@ -1,0 +1,28 @@
+﻿<Page x:Class="Typeify.LetterGame"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Typeify"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="LetterGame" Background="#FF1E1D20">
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="351*"/>
+            <ColumnDefinition Width="49*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="minimalism-simple-simple-background-abstract-wallpaper-preview.jpg" Opacity="0.2"/>
+        </Grid.Background>
+        <Label Name="lblNumber" Content="60" HorizontalAlignment="Left" Margin="457,38,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Century Gothic" FontSize="36" HorizontalContentAlignment="Left"/>
+        <Label Name="lblLetter" Content="W" HorizontalAlignment="Left" Margin="352,142,0,0" Foreground="White" FontFamily="Franklin Gothic Medium" FontSize="122" VerticalAlignment="Top" Width="116" Height="147" TextOptions.TextHintingMode="Fixed" HorizontalContentAlignment="Center"/>
+        <Label Name="lblscore" Content="0" HorizontalAlignment="Left" Margin="429,347,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Century Gothic" FontSize="32" Width="92" Height="48"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Height="29" Margin="29,405,0,0" VerticalAlignment="Top" Width="125" Click="ExitButton_Click" Background="#FF343333" Foreground="White" BorderBrush="White" FontFamily="Century Gothic" FontSize="19" RenderTransformOrigin="0.837,0.247"/>
+        <Label Content="Time Left :" HorizontalAlignment="Left" Margin="281,38,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Century Gothic" FontSize="35"/>
+        <Label Content="Score :" HorizontalAlignment="Left" Margin="316,346,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Century Gothic" FontSize="32"/>
+
+    </Grid>
+</Page>

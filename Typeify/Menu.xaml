@@ -1,0 +1,27 @@
+﻿<Page x:Class="Typeify.Menu" Height="500" Width="850"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Typeify"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Menu">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="minimalism-simple-simple-background-abstract-wallpaper-preview.jpg" Opacity="0.2"/>
+        </Grid.Background>
+        <Button Content="Hand Layout" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="312,110,0,0" VerticalAlignment="Top" Width="231" Foreground="White" FontSize="36" BorderBrush="White" Click="HandButton_Click" Height="54" Background="{x:Null}"/>
+        <Button Content="About" HorizontalAlignment="Left" Margin="312,288,0,0" VerticalAlignment="Top" Width="231" Foreground="White" FontSize="36" BorderBrush="White" Click="AboutButton_Click" RenderTransformOrigin="0.524,0.346">
+            <Button.Background>
+                <SolidColorBrush Color="#00656369" Opacity="0.2"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Start" HorizontalAlignment="Left" Margin="312,200,0,0" VerticalAlignment="Top" Width="231" Foreground="White" FontSize="36" BorderBrush="White" Click="StartButton_Click">
+            <Button.Background>
+                <SolidColorBrush Color="#00656369" Opacity="0"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Page>
