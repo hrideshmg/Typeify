@@ -1,3 +1,6 @@
+## Installation
+Just [download](https://github.com/moltenlava16/Typeify/releases/download/v1.0.0/Typeify.exe) and run!
+
 ## Description
 This is a game designed to help people who lack experience with keyboards gain a mental image of where each key is located on the keyboard. 
 
